@@ -3,3 +3,6 @@
 09-04-2018 17:20:46 INFO [main] SortManager - Binary sort
 09-04-2018 17:20:52 INFO [main] SortManager - Binary sort
 09-04-2018 17:21:14 ERROR [main] SortManager - No sorter selected in the factory.properties file!
+09-04-2018 17:45:38 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
+09-04-2018 17:45:38 ERROR [main] ElementNotFoundException - Element not found
+09-04-2018 17:45:38 ERROR [main] ElementNotFoundException - Element not found

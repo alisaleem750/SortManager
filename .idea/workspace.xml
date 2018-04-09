@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b61e8985-636d-475b-ab61-ff23dff2057a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/factory.properties" afterPath="$PROJECT_DIR$/resources/factory.properties" />
-      <change beforePath="$PROJECT_DIR$/resources/logging.properties" afterPath="$PROJECT_DIR$/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/ElementNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/ElementNotFoundException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/JustRootItemException.java" afterPath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/JustRootItemException.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManagerException.java" afterPath="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManagerException.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java" afterPath="$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java" />
+      <change beforePath="$PROJECT_DIR$/resources/logFile" afterPath="$PROJECT_DIR$/resources/logFile" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,35 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SortManager$All_in_SortManager.coverage" NAME="All in SortManager Coverage Results" MODIFIED="1523260119803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SortManager$All_in_SortManager.coverage" NAME="All in SortManager Coverage Results" MODIFIED="1523292336101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SortFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factory.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/factory.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,11 +97,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortTester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortTester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+              <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/sorters/binarytree/BinaryTreeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4101">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/m3c/as/sorters/binarytree/BinaryTreeSort.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/m3c/as/SortManagerTester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/m3c/as/sorters/binarytree/BinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/resources/logging.properties" />
         <option value="$PROJECT_DIR$/resources/log4j.properties" />
@@ -190,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/JustRootItemException.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManagerException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -319,6 +316,15 @@
             </path>
             <path>
               <item name="SortManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SortManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="as" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SortManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -359,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest.deleteNodeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -419,7 +425,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BinaryTreeTest.cannotDeleteRootNodeWith1ItemInTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTest.deleteNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.m3c.as.binarytree.*" />
@@ -431,7 +437,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.m3c.as.binarytree" />
       <option name="MAIN_CLASS_NAME" value="com.m3c.as.binarytree.BinaryTreeTest" />
-      <option name="METHOD_NAME" value="cannotDeleteRootNodeWith1ItemInTreeTest" />
+      <option name="METHOD_NAME" value="deleteNodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -556,18 +562,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in SortManager" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.cannotDeleteRootNodeWith1ItemInTreeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.instantiateWithArrayTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.getLeftChildTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.instantiateWithArrayTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.getLeftChildTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.deleteNodeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.deleteNodeTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.All in SortManager" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.getLeftChildTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.instantiateWithArrayTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.cannotDeleteRootNodeWith1ItemInTreeTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.getLeftChildTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest.instantiateWithArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -588,18 +594,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_SortManager - 2018.04.06 at 09h 19m 50s.xml">
-      <configuration name="All in SortManager" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SortManager - 2018.04.06 at 09h 23m 56s.xml">
-      <configuration name="All in SortManager" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SortManager - 2018.04.06 at 09h 27m 33s.xml">
-      <configuration name="All in SortManager" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SortManager - 2018.04.06 at 09h 28m 05s.xml">
-      <configuration name="All in SortManager" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_SortManager - 2018.04.06 at 09h 43m 06s.xml">
       <configuration name="All in SortManager" configurationId="JUnit" />
     </history-entry>
@@ -609,14 +603,26 @@
     <history-entry file="All_in_SortManager - 2018.04.09 at 17h 18m 22s.xml">
       <configuration name="All in SortManager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_getLeftChildTest - 2018.04.06 at 09h 23m 03s.xml">
-      <configuration name="BinaryTreeTest.getLeftChildTest" configurationId="JUnit" />
+    <history-entry file="All_in_SortManager - 2018.04.09 at 17h 45m 38s.xml">
+      <configuration name="All in SortManager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_getLeftChildTest - 2018.04.06 at 09h 23m 32s.xml">
-      <configuration name="BinaryTreeTest.getLeftChildTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 43m 40s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTest_getLeftChildTest - 2018.04.06 at 09h 23m 49s.xml">
-      <configuration name="BinaryTreeTest.getLeftChildTest" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 44m 48s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 45m 19s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 47m 37s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 50m 04s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_deleteNodeTest - 2018.04.09 at 17h 50m 17s.xml">
+      <configuration name="BinaryTreeTest.deleteNodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -630,16 +636,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.48720682" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32391304" sideWeight="0.41471216" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32391304" sideWeight="0.4307036" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32391304" sideWeight="0.58528787" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32391304" sideWeight="0.56929636" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -879,21 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/sorters/binarytree/BinaryTreeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding>
-            <element signature="e#706#707#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#10463#10464#0" expanded="false" />
-            <element signature="e#10499#10500#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/view/SortDisplayManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -910,14 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -930,14 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/logFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -970,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/JustRootItemException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/SortManagerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -998,13 +964,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java">
+    <entry file="file://$PROJECT_DIR$/resources/logFile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/controller/JustRootItemException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/SortTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/m3c/as/sorters/binarytree/BinaryTreeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4101">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/m3c/as/binarytree/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="151" column="22" lean-forward="false" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

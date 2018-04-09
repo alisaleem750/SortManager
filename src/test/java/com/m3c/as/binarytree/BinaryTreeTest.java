@@ -142,6 +142,14 @@ public class BinaryTreeTest {
         bt.deleteNode(7);
         assertEquals(1, bt.getLeftChild(6));
         assertEquals(8, bt.getRightChild(6));
+        bt.deleteNode(8);
+        assertEquals(12, bt.getRightChild(6));
+        bt.deleteNode(1);
+        assertEquals(3, bt.getLeftChild(6));
+        bt.deleteNode(3);
+        assertEquals(5, bt.getLeftChild(6));
+        bt.deleteNode(5);
+        assertEquals(5, bt.getLeftChild(6));
     }
 
     @Test(expected = JustRootItemException.class)
