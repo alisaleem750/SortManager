@@ -3,6 +3,8 @@ package com.m3c.as;
 import com.m3c.as.sorters.BubbleSort;
 import com.m3c.as.sorters.MergeSort;
 import com.m3c.as.sorters.Sorter;
+import com.m3c.as.sorters.binarytree.BinaryTreeSort;
+import org.hamcrest.core.IsInstanceOf;
 import org.junit.After;
 import static org.junit.Assert.*;
 import org.junit.Before;

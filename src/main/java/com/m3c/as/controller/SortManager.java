@@ -23,11 +23,13 @@ public class SortManager {
             array = createArray(10);
         } catch (SortManagerException sme) {
             display.displayException(sme.getMessage());
+            logger.error(sme.getMessage());
         }
     }
 
     public void sortArray() {
         if(sorter != null) {
+            logger.info(sorter.toString());
             display.displaySorterUsed(sorter);
             display.displayUnsortedArray(array);
             long start = System.nanoTime();

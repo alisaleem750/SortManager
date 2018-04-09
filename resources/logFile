@@ -1,0 +1,5 @@
+09-04-2018 17:19:18 INFO [main] SortManager - Binary sort
+09-04-2018 17:20:34 INFO [main] SortManager - Binary sort
+09-04-2018 17:20:46 INFO [main] SortManager - Binary sort
+09-04-2018 17:20:52 INFO [main] SortManager - Binary sort
+09-04-2018 17:21:14 ERROR [main] SortManager - No sorter selected in the factory.properties file!
