@@ -1,7 +1,5 @@
 package com.m3c.as.sorters;
 
-import java.util.ArrayList;
-
 public class MergeSort implements Sorter {
 
     public int[] sortArray(int[] array) {
@@ -30,8 +28,6 @@ public class MergeSort implements Sorter {
 
         left = sortArray(left);
         right = sortArray(right);
-        //System.out.println("Left: " + Arrays.toString(left));
-        //System.out.println("Right: " + Arrays.toString(right));
         return merge(left, right);
     }
 
@@ -63,8 +59,6 @@ public class MergeSort implements Sorter {
             rIndex++;
             resultIndex++;
         }
-
-        //System.out.println("Result: " + Arrays.toString(result));
         return result;
     }
 

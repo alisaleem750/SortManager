@@ -2,18 +2,12 @@ package com.m3c.as.binarytree;
 
 import com.m3c.as.controller.ElementNotFoundException;
 import com.m3c.as.controller.JustRootItemException;
-import com.m3c.as.controller.SortManager;
-import com.m3c.as.controller.SortManagerException;
-import com.m3c.as.sorters.binarytree.BinaryTree;
 import com.m3c.as.sorters.binarytree.BinaryTreeImpl;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Arrays;
 import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class BinaryTreeTest {

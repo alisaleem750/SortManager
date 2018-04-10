@@ -4,7 +4,6 @@ import com.m3c.as.sorters.BubbleSort;
 import com.m3c.as.sorters.MergeSort;
 import com.m3c.as.sorters.Sorter;
 import com.m3c.as.sorters.binarytree.BinaryTreeSort;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;

@@ -2,8 +2,6 @@ package com.m3c.as.sorters.binarytree;
 
 import com.m3c.as.sorters.Sorter;
 
-import java.util.List;
-
 public class BinaryTreeSort implements Sorter{
 
     @Override
