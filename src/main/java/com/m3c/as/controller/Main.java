@@ -1,5 +1,8 @@
 package com.m3c.as.controller;
 
+/**
+ * Starter class
+ */
 public class Main
 {
     public static void main( String[] args )

@@ -8,6 +8,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * Factory class. It checks the factory.properties file to check which sorter is being used to sort
+ * the list. Catches the error if the file path is not correct, and throws new exceptions if the
+ * sorter chosen is not present in the properties file, or if no sorter is chosen.
+ */
 public class SortFactory {
 
     private static final String SORTER_NOT_FOUND = "Sorry! Chosen sorter does not exist";

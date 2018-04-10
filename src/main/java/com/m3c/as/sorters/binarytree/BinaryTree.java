@@ -4,6 +4,9 @@ import com.m3c.as.controller.ElementNotFoundException;
 
 import java.util.List;
 
+/**
+ * Interface for Binary Tree sorter
+ */
 public interface BinaryTree {
     int getRootElement();
 

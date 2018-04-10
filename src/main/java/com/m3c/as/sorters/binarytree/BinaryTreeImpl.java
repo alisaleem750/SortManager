@@ -7,16 +7,28 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * Implementation of the binary tree sorter.
+ */
 public class BinaryTreeImpl implements BinaryTree {
 
     private Node root;
     private int nodeCount;
 
+    /**
+     * Constructor taking an int value to assign as the root element of the tree.
+     * @param value root element of binary tree.
+     */
     public BinaryTreeImpl(int value) {
         root = new Node(value);
         nodeCount = 1;
     }
 
+    /**
+     * Constructor taking an array of integers. Assigns first element of list as the root, and
+     * adds the rest of the elements to the binary tree.
+     * @param values
+     */
     public BinaryTreeImpl(int[] values) {
         root = new Node(values[0]);
         int[] otherElements = Arrays.copyOfRange(values, 1, values.length);
@@ -25,14 +37,26 @@ public class BinaryTreeImpl implements BinaryTree {
     }
 
 
+    /**
+     * Gets the root element.
+     * @return integer representing root element.
+     */
     public int getRootElement() {
         return root.getValue();
     }
 
+    /**
+     * Gets the number of nodes in the binary tree.
+     * @return integer representing number of nodes in tree.
+     */
     public int getNumberOfElements() {
         return nodeCount;
     }
 
+    /**
+     * Adds an element to the binary tree if it isn't already in it.
+     * @param element integer value to add to the binary tree.
+     */
     public void addElement(int element) {
         boolean elementAdded = findElement(element);
         Node currentNode = root;
@@ -58,13 +82,21 @@ public class BinaryTreeImpl implements BinaryTree {
         }
     }
 
+    /**
+     * Calls the addElement method for each element present in the list of integer elements.
+     * @param elements values to add to the binary tree.
+     */
     public void addElements(int[] elements) {
         for (int element : elements) {
             addElement(element);
         }
-
     }
 
+    /**
+     * Checks if an element is present in the binary tree.
+     * @param value
+     * @return
+     */
     public boolean findElement(int value) {
         Node currentNode = root;
 

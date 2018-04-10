@@ -23,3 +23,5 @@
 10-04-2018 09:31:50 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
 10-04-2018 09:31:50 ERROR [main] ElementNotFoundException - Element not found
 10-04-2018 09:31:50 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 11:51:31 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 11:51:31 ERROR [main] ElementNotFoundException - Element not found

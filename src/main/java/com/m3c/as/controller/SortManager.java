@@ -9,7 +9,11 @@ import org.apache.log4j.PropertyConfigurator;
 
 import java.util.Random;
 
-
+/**
+ * Controller for the sorters. Creates a random list of an arbitrary size, and then creates
+ * the appropriate sorter from the factory. Calls the sorting algorithm from this sorter to
+ * sort the list created and sends the result to the DisplayManager.
+ */
 public class SortManager {
     private static final String LOG_PROPERTIES_FILE = "resources/log4j.properties";
     private static final Logger logger = LogManager.getLogger("myLogger");
@@ -18,6 +22,9 @@ public class SortManager {
     int[] array;
     SortDisplayManager display;
 
+    /**
+     * Constructor creates a new display manager, gets the sorter and creates a new array.
+     */
     public SortManager() {
         display = new SortDisplayManager();
         try {
@@ -29,6 +36,10 @@ public class SortManager {
         }
     }
 
+    /**
+     * Checks that a sorter is chosen. If it is, sorts the array created in the constructor with
+     * the chosen sorter.
+     */
     public void sortArray() {
         if (sorter != null) {
             logger.info(sorter.toString());
@@ -42,6 +53,11 @@ public class SortManager {
         }
     }
 
+    /**
+     * Creates a new random array.
+     * @param size specifies the size of the list to be created
+     * @return returns an array of integers with the size specified in the parameter.
+     */
     private int[] createArray(int size) {
         Random random = new Random();
         int[] unsortedArray = new int[size];
@@ -51,6 +67,9 @@ public class SortManager {
         return unsortedArray;
     }
 
+    /**
+     * Initialises the logger.
+     */
     public static void initialiseLogging() {
         PropertyConfigurator.configure(LOG_PROPERTIES_FILE);
         logger.info("Logging Initialised");
