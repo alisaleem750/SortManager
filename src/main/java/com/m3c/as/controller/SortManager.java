@@ -30,7 +30,7 @@ public class SortManager {
     }
 
     public void sortArray() {
-        if(sorter != null) {
+        if (sorter != null) {
             logger.info(sorter.toString());
             display.displaySorterUsed(sorter);
             display.displayUnsortedArray(array);
@@ -51,7 +51,7 @@ public class SortManager {
         return unsortedArray;
     }
 
-    public static void initialiseLogging(){
+    public static void initialiseLogging() {
         PropertyConfigurator.configure(LOG_PROPERTIES_FILE);
         logger.info("Logging Initialised");
     }
