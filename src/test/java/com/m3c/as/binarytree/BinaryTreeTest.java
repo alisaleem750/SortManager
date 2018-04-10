@@ -149,7 +149,9 @@ public class BinaryTreeTest {
         bt.deleteNode(3);
         assertEquals(5, bt.getLeftChild(6));
         bt.deleteNode(5);
-        assertEquals(5, bt.getLeftChild(6));
+        assertEquals(2, bt.getNumberOfElements());
+        bt.deleteNode(6);
+        assertEquals(12, bt.getRootElement());
     }
 
     @Test(expected = JustRootItemException.class)

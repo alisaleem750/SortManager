@@ -6,3 +6,17 @@
 09-04-2018 17:45:38 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
 09-04-2018 17:45:38 ERROR [main] ElementNotFoundException - Element not found
 09-04-2018 17:45:38 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:23:59 INFO [main] SortManager - Logging Initialised
+10-04-2018 09:23:59 INFO [main] SortManager - Binary sort
+10-04-2018 09:24:24 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
+10-04-2018 09:28:31 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:28:31 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:28:38 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
+10-04-2018 09:29:20 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:29:34 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
+10-04-2018 09:29:34 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:29:34 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:29:34 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:31:20 ERROR [main] JustRootItemException - Root element cannot be removed with only 1 item in the binary tree
+10-04-2018 09:31:20 ERROR [main] ElementNotFoundException - Element not found
+10-04-2018 09:31:20 ERROR [main] ElementNotFoundException - Element not found

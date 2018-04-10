@@ -5,11 +5,13 @@ import com.m3c.as.sorters.Sorter;
 import com.m3c.as.view.SortDisplayManager;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.util.Random;
 
 
 public class SortManager {
+    private static final String LOG_PROPERTIES_FILE = "resources/log4j.properties";
     private static final Logger logger = LogManager.getLogger("myLogger");
 
     Sorter sorter;
@@ -47,5 +49,10 @@ public class SortManager {
             unsortedArray[i] = random.nextInt(size * 10) + 1;
         }
         return unsortedArray;
+    }
+
+    public static void initialiseLogging(){
+        PropertyConfigurator.configure(LOG_PROPERTIES_FILE);
+        logger.info("Logging Initialised");
     }
 }

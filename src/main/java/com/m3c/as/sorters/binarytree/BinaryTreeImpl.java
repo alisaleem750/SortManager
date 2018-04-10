@@ -192,7 +192,7 @@ public class BinaryTreeImpl implements BinaryTree {
                     }
                     nodeCount--;
                 } else {
-                    nodeToMove.setRightChild(nodeToRemove.getRightChild());
+                    nodeToMove.setLeftChild(nodeToRemove.getLeftChild());
                     if (nodeToRemove == root) {
                         root = nodeToMove;
                     } else {
