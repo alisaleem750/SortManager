@@ -6,6 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+/**
+ * Test class for Node in a binary tree.
+ */
 public class NodeTest {
 
     Node node;

@@ -1,7 +1,15 @@
 package com.m3c.as.sorters;
 
+/**
+ * This class implements the Sorter interface and sorts arrays using the bubble sort algorithm.
+ */
 public class BubbleSort implements Sorter{
 
+    /**
+     * Sorts the array of integers passed in.
+     * @param array list to be sorted
+     * @return sorted array
+     */
     public int[] sortArray(int[] array){
         boolean sorted = false;
 

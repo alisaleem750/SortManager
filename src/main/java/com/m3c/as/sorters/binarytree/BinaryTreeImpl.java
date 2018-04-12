@@ -112,6 +112,12 @@ public class BinaryTreeImpl implements BinaryTree {
         return false;
     }
 
+    /**
+     * Gives the integer value of the left child for the element passed in.
+     * @param element parent of left child
+     * @return int value of left child of element in parameter
+     * @throws ElementNotFoundException
+     */
     public int getLeftChild(int element) throws ElementNotFoundException {
         Node currentNode = root;
 
@@ -130,6 +136,12 @@ public class BinaryTreeImpl implements BinaryTree {
         throw new ElementNotFoundException();
     }
 
+    /**
+     * Gives the integer value of the right child for the element passed in.
+     * @param element parent of right child
+     * @return int value of right child of element in parameter
+     * @throws ElementNotFoundException
+     */
     public int getRightChild(int element) throws ElementNotFoundException {
         Node currentNode = root;
         if (findElement(element)) {
@@ -147,6 +159,12 @@ public class BinaryTreeImpl implements BinaryTree {
         throw new ElementNotFoundException();
     }
 
+    /**
+     * Deletes the node passed in if it can be deleted. It cannot be deleted if it is the root of the tree and no other
+     * elements exist in the tree.
+     * @param element node to be deleted
+     * @throws JustRootItemException
+     */
     public void deleteNode(int element) throws JustRootItemException {
         Node parentNodeToRemove = null;
         Node nodeToRemove = root;
@@ -251,6 +269,10 @@ public class BinaryTreeImpl implements BinaryTree {
         }
     }
 
+    /**
+     * Sorts the tree in an ascending order
+     * @return A sorted list of integers representing the tree.
+     */
     public List<Integer> getSortedTreeAsc() {
         Stack<Node> elementStack = new Stack<>();
         List<Integer> result = new ArrayList<>();
@@ -280,6 +302,10 @@ public class BinaryTreeImpl implements BinaryTree {
         return result;
     }
 
+    /**
+     * Sorts the tree in a descending order
+     * @return List of integers representing the sorted tree
+     */
     public List<Integer> getSortedTreeDesc() {
         Stack<Node> elementStack = new Stack<>();
         List<Integer> result = new ArrayList<>();

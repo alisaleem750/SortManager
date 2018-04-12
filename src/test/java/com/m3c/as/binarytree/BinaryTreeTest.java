@@ -10,6 +10,9 @@ import org.junit.Test;
 import java.util.List;
 import static org.junit.Assert.*;
 
+/**
+ * Test class for the Binary Tree.
+ */
 public class BinaryTreeTest {
 
     int root;

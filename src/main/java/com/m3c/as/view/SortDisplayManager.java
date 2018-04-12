@@ -4,6 +4,9 @@ import com.m3c.as.sorters.Sorter;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 
+/**
+ * This class handles everything that needs to be displayed to the standard output.
+ */
 public class SortDisplayManager {
 
     public void displaySorterUsed(Sorter sorter){

@@ -1,7 +1,15 @@
 package com.m3c.as.sorters;
 
+/**
+ * This class implements the Sorter interface and sorts arrays using the merge sort algorithm.
+ */
 public class MergeSort implements Sorter {
 
+    /**
+     * Sorts the array of integers passed in.
+     * @param array list to be sorted
+     * @return sorted array
+     */
     public int[] sortArray(int[] array) {
         int left[];
         int right[];
@@ -31,6 +39,12 @@ public class MergeSort implements Sorter {
         return merge(left, right);
     }
 
+    /**
+     * Takes in two arrays, and merges them into a single sorted array.
+     * @param left sub-array left half of array
+     * @param right sub-array right half of array
+     * @return array combining values of left and right arrays by sorting them.
+     */
     private int[] merge(int[] left, int[] right) {
         int[] result = new int[left.length + right.length];
         int lIndex = 0;
